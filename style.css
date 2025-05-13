@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(255, 243, 59);
+    font-family: 'Krona Ona', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+strong{
+    color: rgb(104, 186, 220);
+}
