@@ -8,16 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="Logo LannCreations">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link">Inicio</a>
+            <a class="cabecalho__menu__link">Sobre mim</a>
+            <img class="cabecalho__menu__logo" src="./img/LannCreationLogo.png" alt="Logo LannCreations">
+        </nav>
     </header>
-    <main>
-        <h1>Bem vindo ao <strong>LannCreations!</strong></h1>
-        <p>Olá! Sou <strong>Lannder Cunha</strong>, desinger gráfico, conhecido por trabalhos com <img src="./img/1726704005_logoprecisavaescrever.webp">, <img src="./img/deu_praia.jpeg">, <img src="./img/popcoffe.jpeg"> e <img src="./img/popcorn.png">. <strong>Tenho 121 bonecas</strong>. Vamos conversar?</p>
-        <a href="https://instagram.com/lanncreations">Instagram </a>
-        <a href="https://api.whatsapp.com/send/?phone=564992839881&text&type=phone_number&app_absent=0">WhatsApp</a>
-        <img src="./img/foto.png"   alt="Homem moreno com barba, camisa azul e colares coloridos olhando para a esquerda.">
+    <main class="apresentacao">
+        <section class="apresentacao__informacao">
+            <h1 class="apresentacao__informacao__titulo">Bem vindo ao <strong class="negritoAzul">LannCreations!</strong></h1>
+            <p class="apresentacao__informacao__texto">Olá! Sou Lannder Cunha, desinger gráfico. Algumas marcas que já confiaram no meu trabalho.</p>
+            <div class="apresentacao__logos">
+                 <img src="./img/CajuLogo.png" alt="Logo Cajueiro">
+                <img src="./img/DeuPraiaLogo.svg" alt="Logo Deu Praia 2024">
+                <img src="./img/PopCoffeeLogo.webp" alt="Pop Coffee Logo">
+                <img src="./img/PopCorn.svg" alt="Logo Pop Corn Gourmet">
+                <img src="./img/PrecisavaEscreverLogo.webp" alt="Logo Precisava Escrever">
+            </div>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__links" href="https://instagram.com/lanncreations">Instagram </a>
+                <a class="apresentacao__links__links" href="https://api.whatsapp.com/send/?phone=564992839881&text&type=phone_number&app_absent=0">WhatsApp</a>
+            </div>
+        </section>
+        <img src="./img/LannderFoto.png"   alt="Homem moreno com barba, camisa azul e colares coloridos olhando para a esquerda.">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por <a class="rodape__texto" href="https://www.instagram.com/mattvieiraa/">Matt Vieira.</a></p>
+    </footer>
 </body>
 </html>
